@@ -8,7 +8,8 @@
 }
 
 .navbar-style{
-    box-shadow: 0 5px 10px rgb(184, 63, 63);
+    box-shadow: 0 5px 10px gray;
+     
 }
 
 .logo{
@@ -18,4 +19,21 @@
 
 .icon-bar{
     background: darkorange;
+}
+
+li a{
+    color: black;
+}
+
+.big-text{
+    font-size: 51px;
+    margin: 20px;
+    color:orange;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
 }
