@@ -1,14 +1,15 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header{
-    height: 100vh;
+    height: 100px;
 }
 
 .navbar-style{
-    box-shadow: 0 5px 10px rgb(184, 63, 63);
+    box-shadow: 0 5px 10px gray;
+     
 }
 
 .logo{
@@ -18,4 +19,64 @@
 
 .icon-bar{
     background: darkorange;
+}
+
+li a{
+    color: black;
+    text-transform: uppercase;
+}
+
+.big-text{
+    font-size: 51px;
+    margin: 20px;
+    color:orange;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background: darkorange;
+    color: aliceblue;
+}
+
+a.btn-second{
+    background: transparent;
+    border: 1px solid darkorange;
+    color: black;
+}
+
+a.btn:hover{
+    background: darkorange;
+    border: none;
+    color: wheat;
+    box-shadow: 5px 5px 10px gray;
+    transition: 0.3s;
+}
+
+.banner-info, .banner-image{
+    margin: 30px 0;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.logo{
+    padding-top: 20px;
+    width: 125px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    text-align: center;
 }
